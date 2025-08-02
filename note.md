@@ -73,3 +73,10 @@ cài: npm install --save-dev babel-plugin-module-resolver
 # B4 : Cấu hình sử dụng CSS/ SASS 
 cài SASS: npm i -D sass
 cài normalize.css : npm i normalize.css
+
+
+# B5: phân tích tổng quan tiktok 
+## Layout: 
+## cài react-router-dom@6 :npm i react-router-dom@6
+## đua router ra ngoài 
+## xây dựng cơ chế tải layout 
