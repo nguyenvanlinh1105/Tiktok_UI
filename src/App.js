@@ -11,21 +11,21 @@ function App() {
                     {publicRoutes.map((route, index) => {
                        
                         const Page = route.component;
-                        let Layout = DefaultLayout
+                        let LayoutDefault = DefaultLayout
                         
                         if( route.layout ) {
-                            Layout = route.layout
+                            LayoutDefault = route.layout
                         }else if( route.layout === null){
-                            Layout = Fragment
+                            LayoutDefault = Fragment
                         }
                         return (
                             <Route
                                 key={index}
                                 path={route.path}
                                 element={
-                                    <Layout>
+                                    <LayoutDefault>
                                         <Page />
-                                    </Layout>
+                                    </LayoutDefault>
                                 }
                             ></Route>
                         );
