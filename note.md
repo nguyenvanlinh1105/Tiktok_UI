@@ -80,3 +80,6 @@ cài normalize.css : npm i normalize.css
 ## cài react-router-dom@6 :npm i react-router-dom@6
 ## đua router ra ngoài 
 ## xây dựng cơ chế tải layout 
+
+# Cài đặt tippy reactjs để sử dụng hiệu quả cho phần search - P2
+    npm i @tippyjs/react
